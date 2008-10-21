@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="WINDOWS-1252" standalone="no"?>
+<jardesc>
+    <jar path="C:/Documents and Settings/Martyn/wiimote/Wii2Scratch/Wii2Scratch.jar"/>
+    <options buildIfNeeded="true" compress="false" descriptionLocation="/Wii2Scratch/jar.jardesc" exportErrors="true" exportWarnings="true" includeDirectoryEntries="false" overwrite="false" saveDescription="true" storeRefactorings="false" useSourceFolders="false"/>
+    <storedRefactorings deprecationInfo="true" structuralOnly="false"/>
+    <selectedProjects/>
+    <manifest generateManifest="false" mainClassHandleIdentifier="=Wii2Scratch/src&lt;{Wii2Scratch.java[Wii2Scratch" manifestLocation="/Wii2Scratch/manifest.mf" manifestVersion="1.0" reuseManifest="true" saveManifest="true" usesManifest="true">
+        <sealing sealJar="false">
+            <packagesToSeal/>
+            <packagesToUnSeal/>
+        </sealing>
+    </manifest>
+    <selectedElements exportClassFiles="true" exportJavaFiles="false" exportOutputFolder="false">
+        <javaElement handleIdentifier="=Wii2Scratch/src"/>
+        <javaElement handleIdentifier="=Wii2Scratch/&lt;lib"/>
+        <file path="/Wii2Scratch/wiiuse.dll"/>
+        <file path="/Wii2Scratch/libwiiuse.so"/>
+        <file path="/Wii2Scratch/libWiiuseJ.so"/>
+        <file path="/Wii2Scratch/WiiUseJ.dll"/>
+    </selectedElements>
+    <fatjar builder="org.eclipse.jdt.ui.plain_jar_builder" launchConfig=""/>
+</jardesc>
