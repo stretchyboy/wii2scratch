@@ -21,3 +21,7 @@ if not try running Wii2Scratch.jar on the command line by going to the install d
 	java -jar Wii2Scratch.jar
 	
 this will give you more info.
+
+See the example file in the start menu for help on how to use and look on the wiki
+
+http://code.google.com/p/wii2scratch/wiki/
