@@ -56,7 +56,6 @@ Most control of the WiiMote is done using "broadcast" blocks in Scratch and all 
 or
 {{{~Set TYPE value}}}
 || broadcast example || Description ||
-
 || {{{ ~Set OrientationThreshold 10 }}}|| Would set Wii2Scratch to trigger an event each time the orientation changes by more tham 10 degrees (however watch for what the AccelerationThreshold is set to) ||
 || {{{ ~Set AccelerationThreshold 10 }}}|| Would set Wii2Scratch to trigger an event each time the raw acceleration changes by more than 10 (out of 256) (setting this to a large number can reduce the number of events sent that are not related to Orientation if that is what you need) ||
 
