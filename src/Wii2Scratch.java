@@ -48,7 +48,7 @@ import java.util.*;
 public class Wii2Scratch implements WiimoteListener{
 
 	private static Map<String, Boolean> subListeners;
-	private static String sIncomingValue;
+	private static String sIncomingValue = "1";
 
 	/**
 	 * Opens the port for talking to Scratch
@@ -153,7 +153,7 @@ public class Wii2Scratch implements WiimoteListener{
 					sensor-update "Scratch-~value"
 					
 					*/
-					//System.out.println(sMsg);
+					System.out.println(sMsg);
 					//just doing the one variable
 					if (sMsg.startsWith("sensor-update \"Scratch-~value"))
 					{
@@ -238,6 +238,7 @@ public class Wii2Scratch implements WiimoteListener{
 								if(aCommandParts.length > 2 && aCommandParts[2].equals("false"))
 								{
 									subListeners.put(aCommandParts[1], false);
+									
 								}
 								else
 								{
@@ -486,7 +487,7 @@ public class Wii2Scratch implements WiimoteListener{
 		String sMsg = "";
 		String sNamePrefix = "Wii" + arg0.getWiimoteId();
 
-		if (subListeners.get("Orientation"))
+		if (subListeners.get("Orientation").equals(true))
 		{
 			Orientation WiiOr = arg0.getOrientation();
 			sMsg = sMsg + " \""+sNamePrefix+"Pitch\" "+WiiOr.getPitch();
